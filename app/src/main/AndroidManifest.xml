@@ -17,6 +17,7 @@
         android:theme="@style/Theme.KontaBai">
         <activity
             android:name=".Activity.CreateDriverProfile"
+            android:parentActivityName=".Activity.UserProfile"
             android:exported="true" />
         <activity
             android:name=".Activity.UserProfile"
