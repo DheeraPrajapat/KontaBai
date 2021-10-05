@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CiFilterState">
+    <option name="selectedSeverities">
+      <map>
+        <entry key="Critical" value="true" />
+        <entry key="High" value="true" />
+        <entry key="Medium" value="true" />
+        <entry key="Low" value="true" />
+        <entry key="Information" value="true" />
+        <entry key="Unknown" value="true" />
+        <entry key="Pending" value="true" />
+        <entry key="Normal" value="true" />
+      </map>
+    </option>
+    <option name="selectedLicences">
+      <map />
+    </option>
+    <option name="selectedScopes">
+      <map />
+    </option>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dheer/AndroidStudioProjects/KontaBai/app/src/main/res/layout/activity_create_driver_profile.xml" value="0.25" />
+        <entry key="..\:/Users/dheer/AndroidStudioProjects/KontaBai/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/dheer/AndroidStudioProjects/KontaBai/app/src/main/res/layout/activity_mobile_registration.xml" value="0.22" />
+        <entry key="..\:/Users/dheer/AndroidStudioProjects/KontaBai/app/src/main/res/layout/activity_user_profile.xml" value="0.22" />
+        <entry key="..\:/Users/dheer/AndroidStudioProjects/KontaBai/app/src/main/res/layout/activity_verification.xml" value="0.33" />
+        <entry key="..\:/Users/dheer/AndroidStudioProjects/KontaBai/app/src/main/res/layout/activity_welcome.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="LocalFilterState">
+    <option name="selectedSeverities">
+      <map>
+        <entry key="Critical" value="true" />
+        <entry key="High" value="true" />
+        <entry key="Medium" value="true" />
+        <entry key="Low" value="true" />
+        <entry key="Information" value="true" />
+        <entry key="Unknown" value="true" />
+        <entry key="Pending" value="true" />
+        <entry key="Normal" value="true" />
+      </map>
+    </option>
+    <option name="selectedLicences">
+      <map />
+    </option>
+    <option name="selectedScopes">
+      <map />
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
