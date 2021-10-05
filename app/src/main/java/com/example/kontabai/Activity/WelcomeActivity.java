@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import com.example.kontabai.R;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class WelcomeActivity extends AppCompatActivity {
 
@@ -20,13 +22,23 @@ public class WelcomeActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         Handler handler=new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
+        FirebaseUser firebaseUser= FirebaseAuth.getInstance().getCurrentUser();
+        if(firebaseUser==null){
+            handler.postDelayed(() -> {
                 startActivity(new Intent(WelcomeActivity.this,MobileRegistration.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK
-                    | Intent.FLAG_ACTIVITY_CLEAR_TASK));
+                        | Intent.FLAG_ACTIVITY_CLEAR_TASK));
                 finish();
-            }
-        },1000);
+            },1000);
+        }
+        if(firebaseUser!=null){
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    startActivity(new Intent(WelcomeActivity.this,MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK
+                            | Intent.FLAG_ACTIVITY_CLEAR_TASK));
+                    finish();
+                }
+            },1000);
+        }
     }
 }
